@@ -1,0 +1,17 @@
+{
+  "name": "@dewline/telemetry",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "probe": "node src/probe.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "koffi": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
